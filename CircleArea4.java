@@ -1,9 +1,9 @@
 import java.io.*;
 import java.util.Scanner;
-class Circlearea5
+class CircleArea4
 {
     double x,y,r;
-    Circlearea5()
+    CircleArea4()
     {
         x=0;
         y=0;
@@ -17,13 +17,13 @@ class Circlearea5
         this.r=r;
     }
 }
-    class Main
+    class CircleMain4
     {
     
 	public static void main(String[] args) {
 	    Scanner sc=new Scanner(System.in);
-	    Circlearea5 ob1=new Circlearea5();
-	    Circlearea5 ob2=new Circlearea5();
+	    CircleArea4 ob1=new CircleArea4();
+	    CircleArea4 ob2=new CircleArea4();
 	    System.out.println("Enter redius of two circles:");
 	    double radius1=sc.nextDouble();
 	    double radius2=sc.nextDouble();
