@@ -1,13 +1,13 @@
 import java.io.*;
 import java.util.Scanner;
-class Circlearea6
+class CircleArea5
 {
     double r;
-    Circlearea6()
+    CircleArea5()
     {
         r=0;
     }
-    Circlearea6(double c){
+    CircleArea5(double c){
         r=c;
     }
     
@@ -19,18 +19,16 @@ class Circlearea6
         this.r=r;
     }
 }
-    class Main
+    class CircleMain5
     {
     
 	public static void main(String[] args) {
 	    Scanner sc=new Scanner(System.in);
-	    Circlearea6 ob1=new Circlearea6();
-	    Circlearea6 ob2=new Circlearea6(5);
+	    CircleArea5 ob1=new CircleArea5();
+	    CircleArea5 ob2=new CircleArea5(5);
 	    System.out.println("Enter redius of two circles:");
 	    double radius1=sc.nextDouble();
-	    double radius2=sc.nextDouble();
 		ob1.setCircle(radius1);
-		ob2.setCircle(radius2);
 		System.out.println("Area of 1st circle is"+ob1.area());
 		System.out.println("Area of 2nd circle is"+ob2.area());
 	}
