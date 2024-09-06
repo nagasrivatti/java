@@ -1,9 +1,9 @@
 import java.io.*;
 import java.util.Scanner;
-public class CircleArea4
+public class CircleArea3
 {
 	double x,y,r;	
-	CircleArea4()
+	CircleArea3()
 	{
 		x=0;
 		y=0;
@@ -19,13 +19,13 @@ public class CircleArea4
 	}
 
 }
-public class CircleMain4
+public class CircleMain3
 {
 	public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
-		CircleArea4 ob1 = new CircleArea4();
-		CircleArea4 ob2 = new CircleArea4();
+		CircleArea3 ob1 = new CircleArea3();
+		CircleArea3 ob2 = new CircleArea3();
 		System.out.print("Enter Radius of the circle-1 : ");
 		double radius1=sc.nextDouble();
 		System.out.print("Enter Radius of the circle-2 : ");
