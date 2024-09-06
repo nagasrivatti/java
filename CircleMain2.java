@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 import java.lang.Math;
-public class CircleArea3
+public class CircleArea2
 {
 	double x,y,r;
 	double area()
@@ -16,13 +16,13 @@ public class CircleArea3
 	} 
 
 }
-public class CircleMain3
+public class CircleMain2
 {
 	public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
-		CircleArea3 ob1 = new CircleArea3();
-		CircleArea3 ob2 = new CircleArea3();
+		CircleArea2 ob1 = new CircleArea2();
+		CircleArea2 ob2 = new CircleArea2();
 		ob1.setCircle(3.0,4.0,5.0);
 		ob2.setCircle(6.0,8.0,10.0);
 		System.out.println("Area of Circle 1 is : "+ob1.area());	
